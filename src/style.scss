@@ -1,0 +1,9 @@
+.container-host {
+  border: dashed 5px lightgray;
+  padding: 10px;
+
+  &:before {
+    content: 'This is host container';
+    color: lightgray;
+  }
+}
