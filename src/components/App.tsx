@@ -25,9 +25,8 @@ const App: React.FC<LayoutProps> = ({ children }) => (
         <a className="p-2 text-dark" href="#">
           Pricing
         </a>
-        <span className="container-host">
-          <Menu type="general" />
-        </span>
+        <Menu type="general" />
+        <span className="container-host"></span>
       </nav>
     </div>
 
