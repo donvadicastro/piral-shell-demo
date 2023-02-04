@@ -1,12 +1,12 @@
 import { ComponentsState, ErrorComponentsState } from 'piral-core';
 import * as React from 'react';
-import { Redirect } from 'react-router-dom';
+import { Navigate } from 'react-router-dom';
 import App from './components/App';
 import { DashboardContainer } from './components/DashboardContainer';
 import { DashboardTile } from './components/DashboardTile';
 import Loading from './components/Loading';
 
-export const home: React.FC = () => <Redirect to="/browse" />;
+export const home: React.FC = () => <Navigate to="/browse" />;
 
 export const layout: Partial<ComponentsState> = {
   Layout: App,

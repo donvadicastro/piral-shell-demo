@@ -2,8 +2,8 @@
   border: dashed 5px lightgray;
   padding: 10px;
 
-  &:before {
-    content: 'This is host container';
+  &:after {
+    content: 'AVAILABLE SLOT';
     color: lightgray;
   }
 }
@@ -39,5 +39,5 @@ html {
 }
 
 .box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
 }
