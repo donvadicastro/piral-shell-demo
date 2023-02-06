@@ -2,7 +2,7 @@ import * as React from 'react';
 
 export const DashboardContainer: React.FC<any> = ({ children }) => (
   <>
-    <div className="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    {/* <div className="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
       <p className="lead">
         Dashboard is an application starting point and shows product tiles. Tile
         is small UI widget that product want to shows when user navigates to
@@ -37,6 +37,6 @@ export const DashboardContainer: React.FC<any> = ({ children }) => (
 
         <div className="container-host">{children}</div>
       </div>
-    </div>
+    </div> */}
   </>
 );
