@@ -2,10 +2,15 @@
   "name": "@donvadicastro/intapp-host-demo",
   "version": "1.2.0",
   "description": "The emulator for the intapp-demo app shell.",
-  "keywords": ["piral"],
+  "keywords": [
+    "piral"
+  ],
   "importmap": {
     "imports": {},
-    "inherit": ["piral-base", "piral-core"]
+    "inherit": [
+      "piral-base",
+      "piral-core"
+    ]
   },
   "dependencies": {
     "piral-core": "^0.15.6",

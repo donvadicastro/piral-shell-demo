@@ -35,7 +35,8 @@ export const DashboardContainer: React.FC<any> = ({ children }) => (
           </div>
         </div>
 
-        <div className="container-host">{children}</div>
+        {children}
+        <div className="container-host"></div>
       </div>
     </div> */}
   </>
