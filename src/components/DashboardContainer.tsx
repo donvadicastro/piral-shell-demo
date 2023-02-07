@@ -2,7 +2,6 @@ import * as React from "react";
 
 export const DashboardContainer: React.FC<any> = ({ children }) => (
   <div className="o-main u-overflow-y-auto">
-    {children}
     <div tag="div"></div>
     <div></div>
     <section className="o-main__body o-grid o-grid o-grid--no-wrap o-grid--bleed-children">
@@ -22,12 +21,9 @@ export const DashboardContainer: React.FC<any> = ({ children }) => (
                     className="c-layout c-layout--bleed"
                     data-layout-id="7e098008-0d96-424e-d216-99539407a40b"
                   >
-                    {children}
-
-                    <div
-                      className="container-host"
-                      style={{ width: "100%" }}
-                    ></div>
+                    <div className="container-host" style={{ width: "100%" }}>
+                      {children}
+                    </div>
                     <br />
 
                     <div

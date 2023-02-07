@@ -420,9 +420,9 @@ const App: React.FC<LayoutProps> = ({ children }) => (
                       <div className="_3IKuotsDlpH-583LjcH3nr">
                         <div className="_2lrtPStxYh1YKZNi4haTNu"></div>
                       </div>
-                      <Menu type="general" />
                       <br/>
                       <div className="container-host">
+                        <Menu type="general" />
                       </div>
                     </div>
                   </div>
