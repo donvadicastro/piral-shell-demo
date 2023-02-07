@@ -1,4 +1,4 @@
-# Piral shell demo
+# MFE shell demo
 
 Creating shell application to host clients.
 
